@@ -54,3 +54,13 @@ def search_text(entry_list, search_type, search_text):
         # search thru specific search type (address, tracking number, name)
         elif search_text in entry[search_type].lower():
             matches.append(entry)
+
+    return matches
+
+
+# Update the list that's present in a listbox
+def update_listbox(listbox, ls):
+    list_variable = tk.Variable(value = ls)
+    listbox.configure(listvariable = list_variable)
+
+
