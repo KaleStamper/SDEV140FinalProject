@@ -1,5 +1,8 @@
 # SDEV140FinalProject
 ## Final Project for SDEV 140
+## How to Run:
+home_gui.py is the main file to run.
+
 ## User Manual: 
 
 This GUI application allows a user to enter or search for an address, tracking number, and name. They can be looked up through any of the three through key phrases or letters. 
