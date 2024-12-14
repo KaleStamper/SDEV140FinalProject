@@ -25,7 +25,7 @@ def populate_search_gui(root, saved_list):
     # https://stackoverflow.com/questions/45441885/how-can-i-create-a-dropdown-menu-from-a-list-in-tkinter
     type_variable = tk.StringVar(root)
     type_variable.set("any")
-    type_menu = tk.OptionMenu(root, type_variable, "any", "name", "address", "tracking number")
+    type_menu = tk.OptionMenu(root, type_variable, "any", "name", "address", "tracking_number")
     type_menu.pack()
 
     # BUTTONS
